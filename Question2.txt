@@ -1,0 +1,3 @@
+Para realizar a correção de erros, deve-se criar uma branch nomeada "hotfix" partindo da branch master, obtendo-se a estrutura "hotfix/error-description"
+
+Para realizar a inserção de uma nova feature, deve-se criar uma branch nomeada "feature" partindo da branch develop, obtendo-se a estrutura "feature/feature-description"
