@@ -43,7 +43,4 @@ public class SwResource {
     public void deleteById(@PathVariable Integer id){
         service.deleteById(id);
     }
-
-
-
 }
