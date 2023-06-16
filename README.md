@@ -27,7 +27,7 @@ Para executar, insira os seguintes comandos no Prompt de Comando no diretório o
 - `mvn clean install -f ./cotefacil-test`
 - `java -jar ./cotefacil-test/target/cotefacil-test.jar`
 
-Caso o segundo comando não tenha funcionado, insira:
+Caso o segundo comando acima não tenha funcionado, insira:
 
 - `java -jar ./cotefacil-test/target/cotefacil-test-0.0.1-SNAPSHOT.jar`
 
@@ -37,6 +37,6 @@ Caso o segundo comando não tenha funcionado, insira:
 
 ### Questão 3:
 
-- `cd Question3`
+- `cd Question3/`
 - `npm install`
 - `npm start`
