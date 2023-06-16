@@ -25,7 +25,7 @@ Para conseguir executar, necessário possuir instalado:
 Para executar, insira os seguintes comandos no Prompt de Comando no diretório onde os arquivos foram clonados:
 
 - `mvn clean install -f ./cotefacil-test`
-- `java -jar ./cotefacil-test/target/cotefacil-test-0.0.1-SNAPSHOT.jar`
+- `java -jar ./cotefacil-test/target/cotefacil-test.jar`
 
 ### Questão 2:
 
