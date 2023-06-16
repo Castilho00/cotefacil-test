@@ -23,10 +23,8 @@ import java.util.Optional;
 @ViewScoped
 public class SwService {
 
-    //@Value("${SWApi.startUrl}")
     private final String startUrlApi = "https://swapi.dev/api/";
 
-    //@Value("${SWApi.endUrl}")
     private final String endUrlApi = "?format=json";
 
     @Autowired

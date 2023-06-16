@@ -43,7 +43,7 @@ public class CotefacilTestApplication{
 	/*
 	@Bean
 	public ServletRegistrationBean facesServletRegistration(){
-		ServletRegistrationBean registrationBean = new ServletRegistrationBean<>();
+		ServletRegistrationBean registrationBean = new ServletRegistrationBean<>(new FacesServlet(), "*.xhtml";
 		registrationBean.setLoadOnStartup(1);
 		registrationBean.addUrlMappings("*.jar");
 		return registrationBean;
@@ -55,6 +55,11 @@ public class CotefacilTestApplication{
 			servletContext.setInitParameter("com.sun.faces.forceLoadConfiguration", Boolean.TRUE.toString());
 			servletContext.setInitParameter("primefaces.THEME", "redmond");
 		};
+	}
+
+	@Bean
+	public ServletListenerRegistrationBean<ConfigureListener> jsfConfigureListener(){
+		return new ServletListenerRegistrationBean<>(new ConfigureListener());
 	}
 
 	@Bean
