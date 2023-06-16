@@ -22,16 +22,20 @@ Para conseguir executar, necessário possuir instalado:
 
 ### Questão 1:
 
-Para executar, insira os seguintes comandos no Prompt de Comando no diretório onde os arquivos foram clonados:
+Para executar, insira os seguintes comandos no Windows PowerShell no diretório onde os arquivos foram clonados:
 
-- `mvn clean install -f ./cotefacil-test`
+- `mvn clean install -f .\cotefacil-test\`
 - `java -jar ./cotefacil-test/target/cotefacil-test.jar`
 
-Para verificar o banco de dados:
+Para verificar as informações do banco de dados através do navegador:
 
 - Insira o endereço `http://localhost:8080/h2-console` em algum navegador de sua escolha
 - Clique no botão `Connect` -> selecione a tabela `PLANETS_TB` -> clique em `Run`
 - A tabela mostrará todas as informações dos planetas que foram solicitadas
+
+Para verificar as informações do banco de dados utilizando Postman:
+
+- Insira o endereço `http://localhost:8080/sw` através da operação `"GET"`
 
 ### Questão 2:
 
