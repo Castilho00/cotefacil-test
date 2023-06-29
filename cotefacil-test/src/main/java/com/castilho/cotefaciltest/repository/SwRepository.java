@@ -8,5 +8,5 @@ import java.util.List;
 
 @Repository
 public interface SwRepository extends JpaRepository<SwInfo, Integer> {
-    SwInfo findByName(String name);
+    SwInfo findByNameContainingIgnoreCase(String name);
 }

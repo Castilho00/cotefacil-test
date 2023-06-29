@@ -44,7 +44,7 @@ public class SwService {
     }
 
     public SwInfo findByName(String name){
-        return repository.findByName(name);
+        return repository.findByNameContainingIgnoreCase(name);
     }
 
     public SwInfo save(SwInfo swInfo){
